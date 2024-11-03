@@ -1,30 +1,68 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
-
-export const links = [
-  { id: nanoid(), href: "#home", text: "home" },
-  { id: nanoid(), href: "#skills", text: "skills" },
-  { id: nanoid(), href: "#about", text: "about" },
-  { id: nanoid(), href: "#projects", text: "projects" },
-];
+import {
+  FaReact,
+  FaCloud,
+  FaJs,
+  FaFigma,
+  FaTools,
+  FaTachometerAlt,
+  FaPalette,
+} from "react-icons/fa";
+import { SiMicrogenetics, SiNx } from "react-icons/si";
 
 export const skills = [
   {
     id: nanoid(),
-    title: "HTML&CSS",
-    icon: <FaHtml5 className="h-16 w-16 text-red-500" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+    title: "React Development",
+    icon: <FaReact className="h-16 w-16 text-blue-500" />,
+    text: "Expert in building dynamic and responsive single-page applications (SPAs) using React, focusing on component-based architecture and reusable code.",
   },
   {
     id: nanoid(),
-    title: "Javascript",
-    icon: <FaJs className="h-16 w-16 text-red-500" />,
-    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+    title: "JavaScript & TypeScript",
+    icon: <FaJs className="h-16 w-16 text-yellow-500" />,
+    text: "Strong command of JavaScript (ES6+) and TypeScript for building robust and maintainable web applications with enhanced type safety.",
   },
   {
     id: nanoid(),
-    title: "React",
-    icon: <FaReact className="h-16 w-16 text-red-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+    title: "Microfrontends Architecture",
+    icon: <SiMicrogenetics className="h-16 w-16 text-blue-500" />,
+    text: "Proficient in designing and implementing microfrontend architectures to enable scalable, maintainable, and independent deployment of frontend applications.",
+  },
+  {
+    id: nanoid(),
+    title: "Monorepo Management",
+    icon: <SiNx className="h-16 w-16 text-purple-500" />,
+    text: "Experienced in managing complex monorepo setups using tools like Lerna and Nx to streamline development across multiple projects and teams.",
+  },
+  {
+    id: nanoid(),
+    title: "Cloud Services & Deployment",
+    icon: <FaCloud className="h-16 w-16 text-purple-500" />,
+    text: "Experienced in deploying and managing applications on cloud platforms like AWS, Azure, and Netlify, ensuring high availability and scalability.",
+  },
+  {
+    id: nanoid(),
+    title: "Performance Optimization",
+    icon: <FaTachometerAlt className="h-16 w-16 text-green-500" />,
+    text: "Focused on optimizing web performance by using techniques like code splitting, lazy loading, and minimizing render-blocking resources.",
+  },
+  {
+    id: nanoid(),
+    title: "UI/UX Design Integration",
+    icon: <FaFigma className="h-16 w-16 text-pink-500" />,
+    text: "Collaborative experience in working with design tools like Figma to translate design systems into pixel-perfect, responsive UIs.",
+  },
+  {
+    id: nanoid(),
+    title: "Design Systems & Component Libraries",
+    icon: <FaPalette className="h-16 w-16 text-teal-500" />,
+    text: "Knowledgeable in developing and utilizing design systems and component libraries such as Material-UI, Tailwind CSS, and Storybook for consistent UI/UX.",
+  },
+  {
+    id: nanoid(),
+    title: "Frontend Tooling & Build Systems",
+    icon: <FaTools className="h-16 w-16 text-gray-500" />,
+    text: "Proficient in configuring and optimizing build tools like Webpack, Vite, and Babel to streamline the development workflow and improve performance.",
   },
 ];
