@@ -31,12 +31,6 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: "Monorepo Management",
-    icon: <SiNx className="h-16 w-16 text-purple-500" />,
-    text: "Experienced in managing complex monorepo setups using tools like Lerna and Nx to streamline development across multiple projects and teams.",
-  },
-  {
-    id: nanoid(),
     title: "Cloud Services & Deployment",
     icon: <FaCloud className="h-16 w-16 text-purple-500" />,
     text: "Experienced in deploying and managing applications on cloud platforms like AWS, Azure, and Netlify, ensuring high availability and scalability.",
